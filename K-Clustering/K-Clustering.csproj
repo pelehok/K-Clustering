@@ -44,9 +44,11 @@
   <ItemGroup>
     <Compile Include="Clusters.cs" />
     <Compile Include="GreedyAlgorithm.cs" />
+    <Compile Include="Models\Byte24.cs" />
     <Compile Include="Models\Edge.cs" />
     <Compile Include="Models\EdgeWeigth.cs" />
     <Compile Include="Models\Graph.cs" />
+    <Compile Include="Models\GraphNode.cs" />
     <Compile Include="Models\Heap\Heap.cs" />
     <Compile Include="Models\INode.cs" />
     <Compile Include="Models\Heap\Key.cs" />

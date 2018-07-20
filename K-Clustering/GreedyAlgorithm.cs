@@ -11,7 +11,7 @@ namespace K_Clustering
     class GreedyAlgorithm
     {
         private int[] id;
-        private int CountClusters = 4;
+        private int CountClusters = 3;
         public double MaxSpasing { get; set; }
         public GreedyAlgorithm(Graph graph)
         {

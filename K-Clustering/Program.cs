@@ -12,7 +12,7 @@ namespace K_Clustering
     {
         static void Main(string[] args)
         {
-            Graph graph = FileService.ReadNode();
+            Graph graph = FileService.ReadNodeByte();
             GreedyAlgorithm greedy = new GreedyAlgorithm(graph);
 
             Console.WriteLine(greedy.MaxSpasing);
